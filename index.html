@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tessemaes</title>
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <!-- ===============================daisy cdn ========================== -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- =================google fonts====================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- ==============================font awesome========================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            font-family: 'Merriweather Sans', sans-serif;
+            background-color: #ececed;
+
+        }
+    </style>
+</head>
+
+<body class="lg:px-16">
+    <header class="">
+        <nav class="flex py-10 lg:py-0 justify-between">
+            <div class="hidden lg:block">
+                <div class="py-10 flex justify-center items-center">
+                    <img src="image/logo.png" alt="">
+                </div>
+                <div>
+                    <ul class="text-center flex  justify-center items-center gap-10 pb-10">
+                        <li class="text-[#272727] text-[13px font-normal]">PRODUCTS</li>
+                        <li class="text-[#272727] text-[13px font-normal]">NEW ARIVALS</li>
+                        <li class="text-[#272727] text-[13px font-normal]">KETO</li>
+                        <li class="text-[#272727] text-[13px font-normal]">RECIPES</li>
+                        <li class="text-[#272727] text-[13px font-normal]">ABOUT US</li>
+                        <li class="text-[#272727] text-[13px font-normal]"> WHERE TO BUY</li>
+                        <li class="text-[#272727] text-[13px font-normal]">FOODSERVICE</li>
+                        <li class="text-[#272727] text-[13px font-normal]">WHOLE SALE(COMMING SOON)</li>
+                        <li>
+                            <div class="flex justify-between items-center gap-4">
+                                <p>CART</p>
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="navbar-start p-0 m-0 lg:hidden flex justify-start items-center">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li class="text-[#272727] text-[13px font-normal]">PRODUCTS</li>
+                        <li class="text-[#272727] text-[13px font-normal]">NEW ARIVALS</li>
+                        <li class="text-[#272727] text-[13px font-normal]">KETO</li>
+                        <li class="text-[#272727] text-[13px font-normal]">RECIPES</li>
+                        <li class="text-[#272727] text-[13px font-normal]">ABOUT US</li>
+                        <li class="text-[#272727] text-[13px font-normal]"> WHERE TO BUY</li>
+                        <li class="text-[#272727] text-[13px font-normal]">FOODSERVICE</li>
+                        <li class="text-[#272727] text-[13px font-normal]">WHOLE SALE(COMMING SOON)</li>
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="lg:hidden">
+                <img src="image/logo.png" alt="">
+               </div>
+        </nav>
+        <!-- =========================banner section============================== -->
+        <div class="">
+            <div class="carousel w-full">
+                <div id="item1" class="carousel-item w-full">
+                    <img src="image/banner1.png" class="w-full" />
+                </div>
+                <div id="item2" class="carousel-item w-full">
+                    <img src="image/banner2.png" class="w-full" />
+                </div>
+                <div id="item3" class="carousel-item w-full">
+                    <img src="image/banner3.jpg" class="w-full" />
+                </div>
+            </div>
+            <div class="flex justify-center w-full py-2 gap-2">
+                <a href="#item1" class="btn btn-xs">1</a>
+                <a href="#item2" class="btn btn-xs">2</a>
+                <a href="#item3" class="btn btn-xs">3</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="">
+        <!-- ==============================first or sign up section=============== -->
+        <section class="py-20">
+            <div class="space-y-6 text-center ">
+                <h2 class="text-2xl font-bold">JOIN OUR EMAIL LIST</h2>
+                <p class="tracking-widest">Get 15% OFF your first order & receive the latest updates!</p>
+                <div>
+                    <input class=" bg-white w-full lg:w-0 lg:pr-96 pl-4 py-[10px] text-black placeholder:text-black" type="email" name=""
+                        id="" placeholder="Your email">
+                    <button class="lg:ml-6 w-full lg:w-0 px-40 py-[10px] border border-amber-950">SUBSCRIBE</button>
+                </div>
+            </div>
+        </section>
+        <!-- =====================second section======================= -->
+        <section>
+            <div class="text-center py-16 px-4 lg:px-32 bg-white">
+                <h2 class="bg-white text-2xl  font-extrabold py-10">SHOP NOW</h2>
+                <div class="items-center grid grid-cols-1 lg:grid-cols-3 gap-6 bg-white">
+                    <div><img class="cursor-pointer w-full" src="image/shopnow1.jpg" alt=""></div>
+                    <div><img class="cursor-pointer w-full" src="image/shopnow2.jpg" alt=""></div>
+                    <div><img class="cursor-pointer w-full" src="image/shopnow3.png" alt=""></div>
+                </div>
+            </div>
+            <div class="text-center pb-20 px-4 lg:px-32 bg-white">
+                <h2 class="bg-white uppercase text-2xl font-extrabold py-10">Feature Recepies</h2>
+                <div class="grid grid-cols-1  lg:grid-cols-3 gap-6 bg-white ">
+
+                    <div><img class="cursor-pointer h-full w-full" src="image/feature1.jpg" alt="">
+                        <p class="bg-white py-6">Chicken Bacon Ranch Pull Apart Rolls</p>
+                    </div>
+                    <div><img class="cursor-pointer h-full" src="image/feature2.png w-full" alt="">
+                        <p class="bg-white py-6">Chicken Bacon Ranch Pull Apart Rolls</p>
+                    </div>
+
+                    <div class="flex flex-col justify-center items-center bg-[#D7F0FC]"><img class="cursor-pointer w-full"
+                            src="image/feature3.png" alt="">
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </section>
+        <!-- =========================third section============================ -->
+        <section class="py-20 ">
+            <div class="text-center">
+                <h2 class="bg-white text-2xl font-extrabold py-10">FAN PHOTO</h2>
+                <div class="grid grid-cols-1 lg:grid-cols-5 gap-2 px-4">
+                    <div><img class="h-full w-full" src="image/fan1.jpg" alt=""></div>
+                    <div><img class="h-full w-full" src="image/fan2.jpg" alt=""></div>
+                    <div><img class="h-full w-full" src="image/fan3.jpg" alt=""></div>
+                    <div><img class="h-full w-full" src="image/fan4.jpg" alt=""></div>
+                    <div><img class="h-full w-full" src="image/fan5.jpg" alt=""></div>
+                    <div><img class="h-full w-full" src="image/fan6.jpg" alt=""></div>
+                    <div><img class="h-full w-full" src="image/fan7.jpg" alt=""></div>
+                    <div><img class="h-full w-full" src="image/fan8.jpg" alt=""></div>
+                    <div><img class="h-full w-full" src="image/fan9.jpg" alt=""></div>
+                    <div><img class="h-full w-full" src="image/fan10.jpg" alt=""></div>
+                </div>
+                <button class=" mt-6 py-2 px-6 bg-white border-black border-[1px]">LOAD MORE</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="bg-white">
+        <div class="bg-white flex flex-col lg:flex-row justify-between py-10 px-16">
+            <div class=" bg-white flex-1 space-y-4">
+                <h5 class="py-4">SIMPLIFY FOOD. AMPLIFY LIFE.®</h5>
+                <p>Privacy Policy</p>
+                <p>| POS and Ecommerce by Shopify</p>
+            </div>
+            <div class="bg-white flex-1 space-y-4">
+                <h5 class="py-4">INFO</h5>
+                <p>Contact Us</p>
+                <p>Careers</p>
+                <p>Frequently Asked Questions (FAQs)</p>
+                <p>Foodservice</p>
+                <p>Press</p>
+                <p>Do not sell my personal information</p>
+            </div>
+            <div class="bg-white flex-1 space-y-4">
+                <h5 class="py-4">SUBSCRIBE</h5>
+                <div class="flex gap-4">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
